@@ -1,0 +1,48 @@
+.Contenedor {
+    display: flex;
+    flex-wrap: wrap; /* <-- se ajustan automáticamente */
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    background-color: rgb(138, 83, 11);
+}
+
+
+.imagen{
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    border: 3px solid;
+}
+
+.Titulo, .Subtitulo {
+    color: purple;
+    font-size: 40px;
+    font-style: italic;
+    text-align: center;
+}
+
+
+.lista{
+    color: purple;
+    font-size: 25px;
+    font-style: italic;
+    text-align: center;
+}
+
+.caja {
+    background-color: rgb(43, 2, 2);
+    border-radius: 25px;
+    border: 1px solid white;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.5);
+}
+
+#Title{
+    text-align: center;
+    color: black;
+    font-size: 50px;
+    font-style: italic;
+}
